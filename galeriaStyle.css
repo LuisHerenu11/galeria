@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#ajusteVentana{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
