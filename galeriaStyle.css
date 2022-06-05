@@ -30,6 +30,19 @@ header{
     height: 100px;
     background-color: #D3A05F;
 }
+footer{
+    height: 30px;
+    background-color: #D3A05F;
+}
+
+.navegador{
+    line-height: 25px;
+    padding: 0px 8px;
+    font-weight: 700;
+    background-color: #C88937;
+    border-radius: 25px;
+    text-align: center;
+}
 
 body{
     background-color: burlywood;
@@ -37,8 +50,10 @@ body{
 
 #ajusteVentana{
     /* los 100 px extra, son para los cuadros de las pinturas */
-    width: 1370px;
-    height: 1200px;
+    /*width: 1370px;
+    height: 1200px;*/
+    width: auto;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
 }
@@ -46,4 +61,5 @@ body{
 .pintura{
     width: 300px;
     height: 300px;
+    border: 5px solid #C88937;
 }
