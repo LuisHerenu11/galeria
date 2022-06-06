@@ -42,6 +42,7 @@ footer{
     background-color: #C88937;
     border-radius: 25px;
     text-align: center;
+    justify-content: space-evenly;
 }
 
 body{
@@ -56,6 +57,10 @@ body{
     height: auto;
     margin-left: auto;
     margin-right: auto;
+}
+
+#exposicion{
+    text-align: center;
 }
 
 .pintura{
