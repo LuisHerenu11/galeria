@@ -33,6 +33,9 @@ header{
 footer{
     height: 30px;
     background-color: #D3A05F;
+    position: absolute; /* usado para fijar el footer al bottom */
+    bottom: 0; /* usado para fijar el footer al bottom*/
+    width: 100%; /* usado para fijar el footer al bottom*/
 }
 
 .navegador{
@@ -47,6 +50,9 @@ footer{
 
 body{
     background-color: burlywood;
+    position: relative;
+    padding-bottom: 5em; 
+    min-height: 100vh;   /* usado para fijar el footer al bottom*/
 }
 
 #ajusteVentana{
